@@ -1,0 +1,180 @@
+
+body{background-color:#CFD8DC;}
+
+body *,body{font-family: "Varela Round", "Roboto","Helvetica","Arial",sans-serif;}
+
+h1,h2,h3,h4,h5,h6{ padding:0px; margin:0px;}
+
+.mainBody{background-color:gray;}
+
+li>a{padding: 0px !important;}
+
+a{padding: 0px !important; text-decoration: none !important;}
+
+.material-icons{font-size:18px; color:white !important;}
+
+.dataBlock{padding:0px 15px;}
+
+.mdl-layout{overflow-y: hidden !important;height:auto;}	
+
+.mdl-layout__content{padding:0px;z-index: 1;} 
+ 
+.mdl-layout__drawer{background-color: #7986CB;border:0px solid black;padding: 15px 10px;}
+
+.mdl-grid, .mdl-cell{
+margin:0px;
+
+}
+
+.card{display:flex;justify-content: center;padding-bottom:25px;}
+
+.mdl-chip__text a{color:#9E9E9E;}
+.mdl-chip__text a:hover{color:#607d8b;}
+
+
+.btnLeft{background-color:#5C6BC0;}
+.btnLeft:hover{background-color:#3F51B5;}
+
+.orgName{
+display: none;
+align-self: center;
+font-size:25px;
+}
+
+
+/* =====================================================Angular Material========================================================================== */
+
+.amSearch{
+padding:10px;
+}
+
+/* ================================================================================================================================================ */
+
+
+
+/* =====================================================set left panel style========================================================================== */
+
+.leftPanel{
+padding:0px;
+background-color:#455A64;
+}
+
+.rightPanel{
+padding:15px 0px;
+background-color:#E0E0E0;
+}
+
+.leftPanel li a{
+color:#ECEFF1;
+}
+
+.leftPanel li a:hover{
+color:#546E7A;
+background-color:#9E9E9E;
+}
+
+/* ================================================================================================================================================ */
+
+@media only screen and (min-width : 769px){     
+  	.mdl-layout__drawer-button{
+	  display:none;
+	}
+	
+	.mdl-layout__header{
+		margin-left: 0px !important;
+		width: 100% !important;
+	}
+	
+	.mdl-layout__content{
+		margin-left: 20% !important;
+	}
+	
+	.mdl-layout__drawer{
+		z-index: 2;
+		margin-top: 5em;
+		width:20%;
+	}
+
+	.orgName{
+	display: flex;
+	}
+}
+
+
+@media screen and (min-width: 769px){
+	.mdl-layout--fixed-drawer>.mdl-layout__drawer {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+
+
+
+/* =====================================================overide bootsrap========================================================================== */
+/* .navbar-default{
+background-color:#37474F;
+border-width: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: #EEEEEE;
+}
+
+.navbar-fixed-top a:hover{
+    color: #4DD0E1 !important;
+}
+
+.navbar-nav {
+    margin: 0px 0px;
+}
+
+#myNavbar li ,#myNavbar ul {
+    display: inline-block;
+}
+
+#myNavbar .navbar-right span{
+	display:none;
+	padding:0px 5px;
+}
+
+.navbar-fixed-top #myNavbar .navbar-right{
+float: right;
+}
+ */
+
+
+/* ================================================================================================================================================ */
+
+
+
+
+
+/* ================================================overide material design======================================================================== */
+/* .mdl-button{
+    color: #EEEEEE;
+    padding: 0px 15px;
+    height: 50px;
+    width: 100%;
+	min-width: auto;
+	text-align: -webkit-left;
+    text-transform: capitalize;
+}
+
+.mdl-button i{
+padding-bottom:5px;
+}
+ */
+/* ================================================================================================================================================ */
+
+
+/* ================================================material design css======================================================================== */
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;	
+  background:bottom right 15% no-repeat #46B6AC;
+}
+/* ================================================================================================================================================ */
